@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="199.0" prefWidth="341.0" styleClass="white-bg" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home_Page.doccontroller2">
+   <children>
+      <AnchorPane prefHeight="151.0" prefWidth="277.0">
+         <children>
+            <AnchorPane prefHeight="39.0" prefWidth="271.0" styleClass="tipbg2" stylesheets="@Style.css" />
+            <Label layoutX="5.0" layoutY="54.0" prefHeight="39.0" prefWidth="240.0" text="Enter the id of patient to cancel it">
+               <font>
+                  <Font name="Century" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="4.0" prefHeight="39.0" prefWidth="329.0" stylesheets="@Adminform.css" text="Cancel Appointment" textFill="WHITE">
+               <font>
+                  <Font name="Century" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cancelapp" layoutX="22.0" layoutY="87.0" promptText="Enter Id" stylesheets="@Style.css">
+               <styleClass>
+                  <String fx:value="textfield-1" />
+                  <String fx:value="white-bg" />
+               </styleClass></TextField>
+            <Button layoutX="150.0" layoutY="120.0" mnemonicParsing="false" onAction="#cancelAppointment" stylesheets="@Style.css" text="Cancel">
+               <styleClass>
+                  <String fx:value="radius" />
+                  <String fx:value="btn_1" />
+               </styleClass>
+            </Button>
+            <AnchorPane layoutX="299.0" prefHeight="199.0" prefWidth="42.0" styleClass="bg_color" stylesheets="@Adminform.css" />
+            <Hyperlink layoutX="299.0" layoutY="5.0" onAction="#backdoc" prefHeight="26.0" prefWidth="42.0" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="13.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

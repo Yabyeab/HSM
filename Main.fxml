@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="501.0" styleClass="tipbg2" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home_page.Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" layoutY="6.0" prefHeight="42.0" prefWidth="501.0" text="WELCOME TO ELSHADI HOSPITAL" textFill="WHITE">
+               <font>
+                  <Font name="Algerian" size="25.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutY="48.0" prefHeight="82.0" prefWidth="501.0" styleClass="black" stylesheets="@Style.css" />
+            <ImageView blendMode="COLOR_BURN" fitHeight="133.0" fitWidth="208.0" layoutX="8.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@elshadi-logo.png" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="tf2" blendMode="COLOR_BURN" layoutX="248.0" layoutY="197.0" prefHeight="200.0" prefWidth="219.0" text="We are proud for visting us.&#10;Elshadi Hospital is a private hospital &#10;that established on June 2018.&#10;At this time we have many specialized&#10;and hambel doctors that are ready to&#10;treat you.&#10;Elshadi Hospial work 24/7&#10;           &#10;                Your healh is ours">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextArea>
+            <AnchorPane layoutY="480.0" prefHeight="104.0" prefWidth="501.0" styleClass="white-bg" stylesheets="@Style.css">
+               <children>
+                  <Label layoutX="23.0" layoutY="10.0" text="Location" textFill="#009b90">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="31.0" text="Elshadi Hospital" textFill="#6da2ff" />
+                  <Label layoutX="23.0" layoutY="51.0" text="Piassa,Addis Ababa" textFill="#6da2ff" />
+                  <Label layoutX="23.0" layoutY="68.0" text="Ethiopia" textFill="#6da2ff" />
+                  <Label layoutX="181.0" layoutY="10.0" text="Opening Hours" textFill="#009b90">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="183.0" layoutY="31.0" text="SUN-SUN" textFill="#6da2ff" />
+                  <Label layoutX="243.0" layoutY="30.0" text="24 Hour Open" textFill="#6da2ff" />
+                  <Label layoutX="326.0" layoutY="64.0" text="We love you our FAMILY" textFill="#009b90">
+                     <font>
+                        <Font name="Forte" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="patpage" alignment="CENTER" layoutX="77.0" layoutY="112.0" onAction="#patpage" prefHeight="35.0" prefWidth="118.0" styleClass="tipbg2" stylesheets="@Style.css" text="Patient" textFill="WHITE" />
+            <Hyperlink fx:id="admpage" alignment="CENTER" layoutX="312.0" layoutY="112.0" onAction="#switchtologin" prefHeight="35.0" prefWidth="118.0" styleClass="tipbg2" stylesheets="@Style.css" text="Admin" textFill="WHITE" />
+            <Hyperlink fx:id="docpage" alignment="CENTER" layoutX="195.0" layoutY="112.0" onAction="#docpage" prefHeight="35.0" prefWidth="118.0" styleClass="tipbg" stylesheets="@Style.css" text="Doctor" textFill="WHITE" />
+            <TextArea fx:id="tf1" blendMode="COLOR_BURN" layoutX="14.0" layoutY="290.0" prefHeight="163.0" prefWidth="189.0" text="And we are glad to tell you this..&#10;We have a discount for our &#10;Mother and Father that are&#10;aged above 65.&#10;We need We support and We &#10;love our MOM and DAD....&#10;&#10;Enjoy it........">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

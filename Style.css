@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 3, 2023, 5:25:25 PM
+    Author     : dell
+*/
+.white-bg{
+    -fx-background-color : #fff;
+}
+.main{
+    -fx-background-color :#6da2ff;
+}
+.radius{
+    -fx-background-radius : 6px;
+}
+.textfield-1{
+    -fx-border-color: #ddd;
+    -fx-border-width: .7px;
+    -fx-font-family: Tahoma;
+}
+.textfield-1:focused{
+    -fx-border-color: linear-gradient(to bottom right,#188ba7,#306090);
+}
+.btn_1{
+    -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090);
+    -fx-cursor : hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.btn_1:hover{
+    -fx-border-color: linear-gradient(to bottom right,#11a7c9,#2765a4);
+}
+.main_bg{
+    -fx-background-color : #f8f8f8
+}
+.black{
+    -fx-background-color : black;
+}
+
+.tipbg{
+    -fx-background-color : #008FE2;
+}
+.tipbg2{
+    -fx-background-color : #009B90;
+}
+.patbg{
+    -fx-background-color : #3069d9;
+}
+.btn_2:hover{
+    -fx-background-color : black;
+}
+.btn_3:hover{
+    -fx-background-color : #009B90;
+}
+#label1 {
+    -fx-border-color: #008FE2;
+    -fx-border-width: 2px;
+}
+
+.cbe{
+    -fx-background-color :#C58AF9;
+}
+.telebirr{
+    -fx-background-color :#8AB4F8;
+}

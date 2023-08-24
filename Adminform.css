@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 22, 2023, 4:22:08 PM
+    Author     : dell
+*/
+
+.white-bg{
+    -fx-background-color : #fff;
+}
+.bg_color{
+   -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090); 
+}
+#status{
+    -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090)
+}
+#named{
+    -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090)
+}
+#iddoc{
+    -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090)
+}
+.radius{
+    -fx-background-radius : 5px;
+}
+.shadow{
+    -fx-effect : dropshadow(three-pass-box,rgba(0,0,0,0.5),5,0,0,0);
+}
+.btn_1{
+    -fx-background-color : transparent;
+     -fx-border-color : #fff;
+      -fx-border-width :.5px;
+       -fx-text-fill:#fff;
+       -fx-font-familiy: Arial;
+       -fx-cursor :hand;
+       
+}
+.btn_1:hover{
+     -fx-background-color : #fff;
+     -fx-text-fill:#000;
+}
+.table-view .column-header{
+     -fx-background-color: linear-gradient(to bottom right,#188ba7,#306090);
+     -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-size: 40px;
+}

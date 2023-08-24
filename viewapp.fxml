@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home_Page.doccontroller2">
+   <children>
+      <AnchorPane prefHeight="502.0" prefWidth="664.0">
+         <children>
+            <TableView fx:id="pattable" layoutX="13.0" layoutY="77.0" prefHeight="425.0" prefWidth="537.0" styleClass="shadow" stylesheets="@Adminform.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="51.0" AnchorPane.topAnchor="77.0">
+               <columns>
+                  <TableColumn fx:id="colpid" prefWidth="103.0" text="Patient_Id" />
+                  <TableColumn fx:id="colpname" prefWidth="128.0" text="Name" />
+                  <TableColumn fx:id="colpnum" prefWidth="139.0" text="Contact Number" />
+                  <TableColumn fx:id="colpbyear" prefWidth="98.0" text="Birthyear" />
+                  <TableColumn fx:id="colpdate" prefWidth="68.0" text="Date" />
+               </columns>
+            </TableView>
+            <AnchorPane layoutX="-2.0" prefHeight="55.0" prefWidth="553.0" styleClass="tipbg2">
+               <children>
+                  <Label layoutX="39.0" layoutY="15.0" text="Appointments">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font>
+                  </Label>
+                  <Line endX="-100.0" endY="27.0" layoutX="133.0" layoutY="18.0" startX="-100.0" />
+               </children>
+               <stylesheets>
+                  <URL value="@Style.css" />
+                  <URL value="@Adminform.css" />
+               </stylesheets>
+            </AnchorPane>
+            <AnchorPane layoutX="550.0" prefHeight="502.0" prefWidth="54.0" styleClass="bg_color" stylesheets="@Adminform.css">
+               <children>
+                  <Hyperlink layoutX="9.0" layoutY="11.0" onAction="#backdoc" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

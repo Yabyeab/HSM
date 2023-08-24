@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="310.0" styleClass="telebirr" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="401.0" prefWidth="314.0">
+         <children>
+            <AnchorPane layoutY="77.0" prefHeight="59.0" prefWidth="310.0" styleClass="black" stylesheets="@Style.css" />
+            <Label alignment="CENTER" layoutX="-1.0" layoutY="4.0" prefHeight="59.0" prefWidth="310.0" text="Payment Portal">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="94.0" layoutY="185.0" text="Enter Your Id" />
+            <Label layoutX="90.0" layoutY="233.0" text="Enter Payment Code" />
+            <TextField layoutX="67.0" layoutY="157.0" prefHeight="26.0" prefWidth="183.0" promptText="ENTER ID" styleClass="white-bg" stylesheets="@Style.css" />
+            <TextField layoutX="67.0" layoutY="204.0" prefHeight="26.0" prefWidth="183.0" promptText="ENTER PAYMENT CODE" styleClass="white-bg" stylesheets="@Style.css" />
+            <AnchorPane layoutX="-2.0" layoutY="296.0" prefHeight="104.0" prefWidth="310.0" styleClass="white-bg" stylesheets="@Style.css">
+               <children>
+                  <ImageView fitHeight="135.0" fitWidth="151.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Telebirr.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="183.0" layoutY="86.0" text="Elshadi Hospital">
+                     <font>
+                        <Font name="Bauhaus 93" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="101.0" fitWidth="105.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ETHIO-TELECOM-logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="181.0" layoutY="51.0" text="Pay With TeleBirr" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="113.0" layoutY="261.0" mnemonicParsing="false" stylesheets="@Style.css" text="Pay By TeleBirr" textFill="WHITE">
+               <styleClass>
+                  <String fx:value="btn_1" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+   <stylesheets>
+      <URL value="@Adminform.css" />
+      <URL value="@Style.css" />
+   </stylesheets>
+</StackPane>
